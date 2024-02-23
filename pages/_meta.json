@@ -4,20 +4,20 @@
   "components": "Components",
   "another": "Another Page",
 
-  "welcome": {
+  "overview": {
     "title": "Overview",
     "type": "page"
   },
   "caliber": {
     "title": "Caliber ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://caliber-staging.toptal.net/?path=/story/about--page",
     "newWindow": true
   },
   "brand": {
     "title": "Brand ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://design.toptal.net/",
     "newWindow": true
   }
 }
