@@ -1,13 +1,21 @@
 {
-  "index": "Introduction",
+  "index": "Theme Components",
+  "foundations": "Foundations",
+  "components": "Components",
   "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+
+  "welcome": {
+    "title": "Overview",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
+  "caliber": {
+    "title": "Caliber ↗",
+    "type": "page",
+    "href": "https://twitter.com/shuding_",
+    "newWindow": true
+  },
+  "brand": {
+    "title": "Brand ↗",
     "type": "page",
     "href": "https://twitter.com/shuding_",
     "newWindow": true

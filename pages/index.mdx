@@ -1,11 +1,159 @@
-# Introduction
+import { Bleed, Callout, Tabs } from "nextra-theme-docs";
+import ClipboardBox from 'components/clipboardBox';
+
  
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+# Documentation Overview
 
-## What is Nextra?
+This Nextra doc site is a template built on Next.js. No lines of code needed just MDX language.
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+---
 
-## Documentation
+## Table of Contents
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+- [Headings](#hello-this-is-a-title-inside-h2)
+- [Paragraphs](#paragraphs)
+- [Text Formatting](#text-formatting)
+- [Lists](#lists)
+- [Callout](#callout)
+- [Checklist](#checklist)
+- [Table](#table)
+- [Bleed](#fullwidth-image)
+- [Code Blocks](#code-blocks)
+- [Copy to clipboard](#copy-to-clipboard)
+
+---
+
+Below are all components and features that are possible to have in this documentation site.
+
+# Hello, This Is a Title Inside h1
+## Hello, This Is a Title Inside h2
+### Hello, This Is a Title Inside h3
+#### Hello, This Is a Title Inside h4
+##### Hello, This Is a Title Inside h5
+###### Hello, This Is a Title Inside h6
+
+---
+### Paragraphs
+A backslash\
+before a line break full of text…
+
+---
+### Text Formatting
+
+Some `backticks` for inline code.
+\
+<strong>Bold text example</strong>
+\
+*italicized text*
+\
+~~strucktext~~
+\
+I need to highlight these ==very important words==
+\
+H~2~O
+\
+X^2^
+\
+Here's a sentence with a footnote. [^1]
+
+---
+
+### Lists
+
+1. First item
+2. Second item
+3. Third item
+
+
+- First item
+- Second item
+- Third item
+
+---
+
+### Callout
+<Callout emoji="👾">
+  **Space Invaders** is a 1978 shoot 'em up arcade game developed by Tomohiro
+  Nishikado.
+</Callout>
+<Callout type="error">Something here</Callout>
+<Callout type="warning">Something here</Callout>
+<Callout type="info" emoji="ℹ️">
+  Today is Friday.
+</Callout>
+<Callout type="default" emoji="ℹ️">
+  Today is Friday.
+</Callout>
+
+---
+
+### Checklist
+
+- [x] Write the press release
+- [ ] Design a component
+- [ ] Build it with love
+- [ ] Contact the media
+
+---
+
+### Table
+| Header 1       | Header 2       | Header 3       | Header 4       |
+|------------    |------------    |------------    |------------    |
+| Content 1  | Content 2  | Content 3  | Content 4  |
+| Content 5  | Content 6  | Content 7  | Content 8  |
+| Content 9  | Content 10 | Content 11 | Content 12 |
+| Content 13 | Content 14 | Content 15 | Content 16 |
+
+---
+
+### Fullwidth Image
+<Bleed full>
+  ![Landscape](https://source.unsplash.com/eaxwP9J_V6s/1600x398)
+</Bleed>
+
+---
+
+### Code Blocks
+
+
+```tsx
+<alert img goes here > backtick.fences('for blocks')</alert>
+```
+
+``` tsx
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+---
+
+### Copy to clipboard
+<br />
+<ClipboardBox backgroundColor="#204ecf" textContent="#204ecf"/>
+<br />
+<ClipboardBox backgroundColor="#000000" textContent="#000000"/>
+<br/>
+<ClipboardBox backgroundColor="#FFFFFF" textContent="#FFFFFF"/> 
+<br/>
+<ClipboardBox backgroundColor="#D42551" textContent="#D42551"/> 
+<br/>
+<ClipboardBox backgroundColor="#CCCCCC" textContent="#CCCCCC"/> 
+---
+
+
+### Tabs
+<Tabs items={['pnpm', 'npm', 'yarn']}>
+
+</Tabs>
+
+---
+
+### Cards
+Not working yet
+
+---
+
+### Steps
+Not working yet
