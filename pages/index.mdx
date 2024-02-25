@@ -1,4 +1,4 @@
-import { Bleed, Callout, Tabs, Cards, Card, Steps } from "nextra-theme-docs";
+import { Bleed, Callout, Tabs, Cards, Card, Steps, FileTree } from "nextra-theme-docs";
 import ClipboardBox from 'components/clipboardBox';
 
 
@@ -148,15 +148,45 @@ Here's a sentence with a footnote. [^1]
 
 ### Tabs
 <Tabs items={['pnpm', 'npm', 'yarn']}>
-
+  <Tabs.Tab>**pnpm**: Fast, disk space efficient package manager.</Tabs.Tab>
+  <Tabs.Tab>**npm** is a package manager for the JavaScript programming language.</Tabs.Tab>
+  <Tabs.Tab>**Yarn** is a software packaging system.</Tabs.Tab>
 </Tabs>
 
 ---
 
 ### Cards
-Not working yet
+<Cards>
+  <Card title="Get Started" href="/components/alert" />
+  <Card title="Accordion" href="/components/accordion" />
+  <Card title="Colors" href="/foundations/colors" />
+</Cards>
 
 ---
 
 ### Steps
-Not working yet
+<Steps>
+### Step 1
+ 
+Contents for step 1.
+ 
+### Step 2
+ 
+Contents for step 2.
+</Steps>
+
+---
+
+### Filetree
+<FileTree>
+  <FileTree.Folder name="pages" defaultOpen>
+    <FileTree.File name="_meta.json" />
+    <FileTree.File name="contact.md" />
+    <FileTree.File name="index.mdx" />
+    <FileTree.Folder name="about">
+      <FileTree.File name="_meta.json" />
+      <FileTree.File name="legal.md" />
+      <FileTree.File name="index.mdx" />
+    </FileTree.Folder>
+  </FileTree.Folder>
+</FileTree>
