@@ -1,5 +1,6 @@
 import { Bleed, Callout, Tabs, Cards, Card, Steps, FileTree } from "nextra-theme-docs";
 import ClipboardBox from 'components/clipboardBox';
+import { GlobeIcon, WordWrapIcon, InformationCircleIcon } from "node_modules/nextra/dist/icons";
 
 
  
@@ -23,6 +24,10 @@ This Nextra doc site is a template built on Next.js. No lines of code needed jus
 - [Bleed](#fullwidth-image)
 - [Code Blocks](#code-blocks)
 - [Copy to clipboard](#copy-to-clipboard)
+- [Tabs](#tabs)
+- [Cards](#cards)
+- [Steps](#steps)
+- [Filetree](#filetree)
 
 ---
 
@@ -157,9 +162,9 @@ Here's a sentence with a footnote. [^1]
 
 ### Cards
 <Cards>
-  <Card title="Get Started" href="/components/alert" />
-  <Card title="Accordion" href="/components/accordion" />
-  <Card title="Colors" href="/foundations/colors" />
+  <Card icon={<GlobeIcon />} title="Get Started" href="/components/alert" />
+  <Card icon={<InformationCircleIcon />} title="Accordion" href="/components/accordion" />
+  <Card icon={<WordWrapIcon />} title="Colors" href="/foundations/colors" />
 </Cards>
 
 ---
