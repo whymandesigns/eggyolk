@@ -3,7 +3,10 @@
   "foundations": "Foundations",
   "components": "Components",
   "another": "Another Page",
-
+  
+  "scripts": {
+  "build": "next build"
+}
   "overview": {
     "title": "Overview",
     "type": "page"
